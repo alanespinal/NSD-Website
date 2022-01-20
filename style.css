@@ -1,0 +1,389 @@
+.topnav {
+  background-color: #6398FF;
+  overflow: hidden;
+}
+.topnav a {
+  display: flex;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Roboto;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+#stop {
+  float: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 0px;
+  width: 60px;
+  height: 58px;
+}
+body {
+  background-color: #E0F7FE;
+}
+h1 {
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 75px;
+}
+h3 {
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 50px;
+}
+header {
+  text-align: center;
+  font-family: Bebas Neue;
+  font-size: 40px;
+}
+p {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#sdGraph {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.recentNews {
+    background-color: rgb(20, 117, 175)
+}
+.recentNews .news-title {
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-family: Bebas Neue;
+    font-size:55px;
+    font-weight:bold;
+    color: white;
+}
+.recentNews .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.recentNews .ct-blog {
+    margin-bottom: 30px;
+}
+.ct-blog .inner {
+    background-color: #FFF;
+    padding: 10px;
+    transition: all 0.2s ease-in-out 0s;
+    cursor: pointer;
+    height: 100%;
+}
+.ct-blog .inner:hover {
+    background-color: #e6e6e6;
+}
+.ct-blog .fauxcrop {
+    height: 180px;
+    overflow: hidden;
+}
+.ct-blog .fauxcrop img {
+    width: 100%;
+}
+.ct-blog-content {
+    display: table;
+    padding: 30px 0 28px;
+}
+.ct-blog-content .ct-blog-date {
+    border-right: 1px solid #95A5A6;
+    display: table-cell;
+    font-family: "Lato", sans-serif;
+    padding: 0px 18px 0px 15px;
+    text-align: center;
+}
+.ct-blog-content .ct-blog-date span {
+    font-size: 16px;
+    color: rgb(20, 117, 175);
+    font-weight: 700;
+    display: block;
+    line-height: 1;
+}
+.ct-blog-content .ct-blog-date strong {
+    font-size: 25px;
+    color: rgb(20, 117, 175);
+}
+.ct-blog-content .ct-blog-header {
+    color: #000;
+    display: table-cell;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    line-height: 1.1;
+    padding: 0 20px;
+    vertical-align: top;
+}
+.btn-news {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.btn-news.btn-contests a {
+    color: #fff;
+    font-family: 'nimbus-sans-condensed', sans-serif;
+    font-size: 24px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.btn-news.btn-contests a:hover {
+    color: #000;
+}
+.newsSource {
+  font-weight: 700;
+  font-size: 16px;
+}
+.resource-links {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: Roboto;
+  background-color: #adffbe;
+  text-align: center;
+}
+.resource-img {
+  width: 175px;
+  padding-bottom: 50px;
+
+
+}
+.resource-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 16px;
+  color: rgb(20, 117, 175);
+  font-weight: 700;
+}
+#stats {
+  height: 200px;
+  width: 300px;
+}
+#stat {
+  height: 200px;
+  width: 250px;
+}
+.contact {
+  text-align: center;
+  background-color: #727aed;
+  color: white;
+  font-size: 20px;
+}
+#homeInfo {
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 50px;
+  border-style: solid;
+  border-color: #5e4df7;
+  border-width: 5px;
+  border-radius: 10px;
+}
+#myImg, #myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+#myImg:hover {opacity: 0.7;}
+#myImg2:hover {opacity: 0.7;}
+#sdGraph:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 85%;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+    margin-top: 150px;
+  }
+}
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.timeline ul li {
+    margin-bottom: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.point {
+    min-width: 20px;
+    height: 20px;
+    background-color: #be9fe1;
+    border-radius: 100%;
+    z-index: 2;
+    border: 3px #333333 solid;
+    position: relative;
+    left: 1px;
+}
+
+.timeline ul li .content {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.timeline ul li:nth-child(odd) .content {
+    padding-left: 0;
+}
+
+.timeline ul li:nth-child(odd) .date {
+    padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .content {
+    padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .date {
+    padding-left: 0;
+}
+
+.timeline ul li .date {
+    width: 50%;
+    padding: 0 20px;
+    font-weight: normal;
+}
+
+.timeline ul li .date h4 {
+    background-color: #e1ccec;
+    width: 100px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.timeline ul li .content p {
+    padding: 10px 20px;
+    background-color: #e1d9ec;
+    margin-top: 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.timeline ul li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.timeline ul li:nth-child(even) .date h4 {
+    float: right
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    left: 50%;
+    background-color: #333333;
+}
+@media (max-width: 800px) {
+    .point {
+        min-width: 15px;
+        height: 15px;
+    }
+
+    html, body {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    html, body {
+        font-size: 14px;
+    }
+
+    .point {
+        min-width: 12px;
+        height: 12px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    html, body {
+        font-size: 10px;
+    }
+
+    p {
+        padding: 10px !important;
+    }
+}

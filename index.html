@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>National Student Debt - Home</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+<script>
+// Get the modal
+window.onload = function(){
+var modal = document.getElementById("myModal");
+var modal2 = document.getElementById("myModal2");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var img2 = document.getElementById("myImg2")
+var modalImg = document.getElementById("img01");
+var modalImg2 = document.getElementById("img02")
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+img2.onclick = function(){
+  modal2.style.display = "block";
+  modalImg2.src = this.src;
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+var span2 = document.getElementsByClassName("close")[1];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+span2.onclick = function(){
+  modal2.style.display = "none";
+}
+}
+</script>
+  </head>
+  <body>
+    <div class="topnav">
+      <img src="stop.png" alt="NSD Logo" id="stop">
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="resources.html">Resources</a>
+    </div>
+    <h1>The National Student Debt Crisis</h1>
+    <h3>In 2022, Americans owe $1.73 trillion in student loans</h3>
+    <div id="homeInfo">
+    <header>
+      What caused the student debt crisis?
+    </header>
+    <p>
+      The main underlying cause behind the student debt crisis is a large disparity in tuition and general wages/salaries. The recent trend when it comes to student debt is that students are finding it more and more difficult to pay off their student loans because of declining average wage values due to inflation. Inflation has caused tuition and other expenses to rise significantly which makes it difficult for students to keep up with payments. According to the Education Data Initiative, "when adjusted for inflation, federal education spending via student loans has nearly tripled since 1980, increasing 171.1%" (Hanson 2021). After finishing school, many students find themselves unable to fully pay their student loans, which leads to an increase in interest and a lesser likelihood of paying off the debts. The graph below from the Education Data Initiative shows the disparity in cumulative debt and total federal borrowers:
+    </p>
+    <img src="https://educationdata.org/wp-content/uploads/3809/student-loan-debt-growth-relative-to-student-borrowers.webp" id="sdGraph"/>
+    <p>
+      As shown in this graph, the amount of cumulative debt has gone up significantly while the amount of borrowers has not changed very much. This occurs because interest accumulates on existing debts that remain unpaid, which causes the cumulative debt to increase even though the amount of borrowers has not increased at the same rate. <br /> <br />Another important reason why student debts have only risen is because the value of college degrees has decreased at a steady rate since the 1990s. In 1991, what is called "The Great Wage Slowdown" began. According to the Education Data Initiative, currency values have declined 27.7% faster than wages have grown since 1991. In addition, the value of both advanced degrees and bachelor's degrees have decreased significantly. As a result, it becomes more difficult for college graduates to find high paying jobs necessary to successfully pay off their student loans. Because of this, there exists a lot of people who are burdened by their student loans because of an inability to pay them off.
+    </p>
+    <header>
+      History of federal student loans in the US
+    </header>
+    <div class="timeline">
+  <ul>
+    <li>
+      <div class="content">
+        <p>Federal student loans are first offered under the National Defense Education Act. Loans were offered to high school students who excelled in math, science, or language, which helped finance their higher education.</p>
+      </div>
+      <div class="point"></div>
+      <div class="date">
+        <h4>1958</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <p>The federal government began providing student loans through banks and non-profit lenders, creating the program that is now called the Federal Family Education Loan Program (FFEL).</p>
+      </div>
+      <div class="point"></div>
+      <div class="date">
+        <h4>1965</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <p>The Middle Income Student Assistance Act of 1978 made student loans more available. More students gained access to funding and financial aid, which caused academic institutions to start raising their tuition and fees.</p>
+      </div>
+      <div class="point"></div>
+      <div class="date">
+        <h4>1978</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <p>FAFSA, the direct lending program is created, which allowed many more students to receive federal aid. This program remains the main way of receiving federal financial aid for college and university students.</p>
+      </div>
+      <div class="point"></div>
+      <div class="date">
+        <h4>1992</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <p>Congress and President Bush enacted a temporary program, ECASLA (Ensuring Continued Access to Student Loans Act) which allowed the US Department of Education to buy guaranteed loans made by private lenders. The proceeds from the loans would be used to originate new student loans.</p>
+      </div>
+      <div class="point"></div>
+      <div class="date">
+        <h4>2008</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <p>The COVID-19 pandemic causes the federal government to put all student loans in pandemic forbearance, which means that no payments are required and no interest will accumulate on the loans.</p>
+      </div>
+      <div class="point"></div>
+      <div class="date">
+        <h4>2020</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <p>The total amount of student debt is over $1.7 trillion. In January 2021, the Biden administration extends the pandemic forbearance until October 2021. The Public Service Loan Forgiveness Program (PSLF) is also updated to include a wider range of public workers and provide them with more debt relief.</p>
+      </div>
+      <div class="point"></div>
+      <div class="date">
+        <h4>2021</h4>
+      </div>
+    </li>
+  </ul>
+</div>
+    <header>
+      <br />
+      What is being done by the government to adress this issue?
+    </header>
+    <p>
+      Since 1965, the US government has created student loan programs to help more people have access to higher education. These programs include the Federal Family Education Loan program (now discontinued), the temporary Ensuring Continued Access to Student Loans Act (ECASLA), etc. As of right now, the most effective student borrowing program is the Free Application for Federal Student Aid (FAFSA). This program has consistently helped borrowers reduce the costs of higher education for students who apply. 86% of college students benefit from this kind of aid, and each year, 33% of students recieve an average of $8,285 in federal loans, and 41% receieve an average of $5,179 in federal grants (Hanson 2021). This program can save students thousands of dollars a year, and helps with their tuition costs. Another student loan program that exists today is the Public Service Loan Forgiveness program (PSLF), which provides debt relief for public workers like teachers, nurses, and firefighters. This program has helped a lot of people with their student loans and has made their lives much easier. However, this program only targets public workers, and does not aim to extend broader loan forgiveness to all debtors. President Biden has voiced support for broad student loan forgiveness, but has not yet stated a specific amount or proposal to enact this kind of forgiveness. The budget proposal for 2022 did not include anything about broad student loan forgiveness, which only makes broad forgiveness more unlikely, but with more pressure from government representatives and awareness about the student debt crisis, things can definitely improve in the future (Check out the Resources tab to see how you can help).
+    </p>
+  </div>
+    <br />
+    <br />
+    <img id="myImg" src="Infographic.jpg">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+</div>
+<img id="myImg2" src="Infographic 2.jpg">
+<!-- The Modal -->
+<div id="myModal2" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img02">
+    </div>
+    <div class="contact">
+      <p>
+        Contact Us:<br />
+        alanedespinal@gmail.com<br />
+        cbickel2022@columbiasecondary.org<br />
+        <p>If you have any comments, questions, or suggestions, please let us know
+        <a href="https://docs.google.com/forms/d/11lA4IVS2n44ekE3YiajP-4pyxFCqqsf5HFqooxC60TQ/edit?usp=sharing" target="_blank">here</a>
+        </p>
+      </p>
+    </div>
+  </body>
+</html>
